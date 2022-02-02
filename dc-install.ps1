@@ -1,4 +1,4 @@
-Invoke-WebRequest -Uri 'https://github.com/JJWill0ughby/tf-testing/blob/main/dc-install.ps1' -OutFile 'c:\dc-install.ps1'
+Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/JJWill0ughby/tf-testing/main/dc-install.ps1' -OutFile 'c:\dc-install.ps1'
 
 $password = $args[0]
 
